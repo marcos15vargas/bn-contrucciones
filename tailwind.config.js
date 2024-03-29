@@ -7,7 +7,11 @@ export default {
     './components/**/*.{html,js}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        "azul" : "#023355",
+      }
+    },
   },
   plugins: [],
 }
