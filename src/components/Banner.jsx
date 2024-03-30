@@ -50,7 +50,7 @@ export const Banner = () => {
         </div>
         <div>
           <img
-            src="public/img/banner.webp"
+            src="assets/banner.webp"
             alt="Hombre en una construccion"
             className="object-cover w-full h-64 md:h-full"
             loading="lazy"
