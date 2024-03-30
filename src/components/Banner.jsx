@@ -51,7 +51,7 @@ export const Banner = () => {
         <div>
           <img
             src="public/img/banner.webp"
-            alt="dlasjkhd"
+            alt="Hombre en una construccion"
             className="object-cover w-full h-64 md:h-full"
             loading="lazy"
           />
