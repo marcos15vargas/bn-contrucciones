@@ -1,3 +1,4 @@
+import { CircleCheck } from "lucide-react"
 
 
 export const navItems = [
@@ -26,3 +27,29 @@ export const navItems = [
         link: "#"
     },
 ]
+export const banner = [
+    {
+      icon: <CircleCheck />,
+      text: "Mayor Seguridad"
+    },
+    {
+      icon: <CircleCheck />,
+      text: "Profesionalismo"
+    },
+    {
+      icon: <CircleCheck />,
+      text: "Sustentabilidad"
+    },
+    {
+      icon: <CircleCheck />,
+      text: "Desarrollo"
+    },
+    {
+      icon: <CircleCheck />,
+      text: "Eficiencia"
+    },
+    {
+      icon: <CircleCheck />,
+      text: "Cumplimiento"
+    },
+  ]
