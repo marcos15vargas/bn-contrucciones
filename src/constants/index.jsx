@@ -8,6 +8,10 @@ import {
   ShowerHead,
 } from "lucide-react";
 
+import slider1 from "../assets/slider/slider1.webp";
+import slider2 from "../assets/slider/slider2.webp";
+import slider3 from "../assets/slider/slider3.webp";
+
 export const navItems = [
   {
     menu: "about",
@@ -91,5 +95,20 @@ export const features = [
     title: "Pintura",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cumque tempore est ab possimus quisquam reiciendis tempora animi! Quaerat, saepe?",
     icon: <PaintRoller />,
+  },
+];
+
+export const slider = [
+  {
+    image: slider1,
+    text: "Texto Ejemplo",
+  },
+  {
+    image: slider2,
+    text: "Texto Ejemplo",
+  },
+  {
+    image: slider3,
+    text: "Texto Ejemplo",
   },
 ];
