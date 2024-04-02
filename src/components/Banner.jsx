@@ -1,5 +1,6 @@
 import { Phone } from "lucide-react";
 import { banner } from "../constants";
+import imgBanner from "../assets/banner.webp"
 
 export const Banner = () => {
   return (
@@ -50,7 +51,7 @@ export const Banner = () => {
         </div>
         <div>
           <img
-            src="public/img/banner.webp"
+            src={imgBanner}
             alt="Hombre en una construccion"
             className="object-cover w-full h-64 md:h-full"
             loading="lazy"
