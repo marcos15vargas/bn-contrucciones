@@ -3,6 +3,7 @@ import { Features } from "./components/Features";
 import { Navbar } from "./components/Navbar";
 import { Proyects } from "./components/Proyects";
 import { Slider } from "./components/Slider";
+import { Testimonial } from "./components/Testimonial";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Features />
       <Proyects />
       <Slider />
+      <Testimonial/>
     </>
   );
 }
