@@ -1,5 +1,6 @@
 import { Banner } from "./components/Banner";
 import { Features } from "./components/Features";
+import { Gallery } from "./components/Gallery";
 import { Navbar } from "./components/Navbar";
 import { Proyects } from "./components/Proyects";
 import { Stats } from "./components/Stats";
@@ -16,6 +17,7 @@ function App() {
       <Proyects />
       {/* <Slider /> */}
       <Testimonial/>
+      <Gallery/>
     </>
   );
 }
