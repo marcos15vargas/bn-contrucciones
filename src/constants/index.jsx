@@ -6,6 +6,10 @@ import {
   HardHat,
   PaintRoller,
   ShowerHead,
+  ClipboardList,
+  TrendingUp,
+  Handshake,
+  UserRound,
 } from "lucide-react";
 
 import slider1 from "../assets/slider/slider1.webp";
@@ -158,5 +162,28 @@ export const testimonial = [
     title: "Construcción de Centro Comercial",
     text: "Elegir esta empresa para la construcción de nuestro centro comercial fue una decisión acertada. Cumplieron con los plazos establecidos y manejaron todo el proyecto de manera eficiente. La atención al detalle y la calidad del trabajo han sido impresionantes, y nuestros inquilinos están muy contentos con sus nuevos espacios comerciales.",
     name: "Elena Rodriguez",
+  },
+]
+
+export const stats = [
+  {
+    title: "Proyectos",
+    number: "+600",
+    icon: <ClipboardList/>,
+  },
+  {
+    title: "Años de Trayectoria",
+    number: "+55",
+    icon:<TrendingUp/>
+  },
+  {
+    title: "Colaboradores",
+    number: "+1000",
+    icon:<Handshake/>
+  },
+  {
+    title: "Tecnicos Certificados",
+    number: "+150",
+    icon:<UserRound />
   },
 ]
