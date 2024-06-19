@@ -1,10 +1,11 @@
-export default function Logo() {
+// eslint-disable-next-line react/prop-types
+export default function Logo({color}) {
   return (
     <svg
       fillRule="evenodd"
       viewBox="0 0 540 446"
       xmlns="http://www.w3.org/2000/svg"
-      fill="#fff"
+      fill={color}
     >
       <defs />
       <g id="Capa_x0020_1">

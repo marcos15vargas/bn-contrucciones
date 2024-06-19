@@ -1,5 +1,6 @@
 import { Banner } from "./components/Banner";
 import { Features } from "./components/Features";
+import { Footer } from "./components/Footer";
 import { Gallery } from "./components/Gallery";
 import { Navbar } from "./components/Navbar";
 import { Proyects } from "./components/Proyects";
@@ -18,6 +19,7 @@ function App() {
       {/* <Slider /> */}
       <Testimonial/>
       <Gallery/>
+      <Footer/>
     </>
   );
 }

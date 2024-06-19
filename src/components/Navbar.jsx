@@ -10,7 +10,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav>
+    <nav id="home">
       <header className="bg-azul">
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-17 items-center justify-between">
@@ -18,7 +18,7 @@ export const Navbar = () => {
             <div className="flex-1 md:flex md:items-center md:gap-2">
               <a className="block text-red-600 size-16 mt-2" href="#">
                 <span className="sr-only">Home</span>
-                <Logo className="" />
+                <Logo color={"#fff"} />
               </a>
             </div>
             {/*Menu Desktop*/}
