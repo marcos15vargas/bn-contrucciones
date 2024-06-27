@@ -27,28 +27,24 @@ import perfil5 from "../assets/testimonial/perfil5.webp";
 
 export const navItems = [
   {
-    menu: "about",
-    link: "#",
+    menu: "Inicio",
+    href: "/",
   },
   {
-    menu: "carrers",
-    link: "#",
+    menu: "Trabajos",
+    href: "/jobs",
   },
   {
-    menu: "history",
-    link: "#",
+    menu: "Servicios",
+    href: "/services",
   },
   {
-    menu: "services",
-    link: "#",
+    menu: "Nosotros",
+    href: "/aboutus",
   },
   {
-    menu: "proyects",
-    link: "#",
-  },
-  {
-    menu: "blog",
-    link: "#",
+    menu: "Contacto",
+    href: "/contact",
   },
 ];
 export const banner = [

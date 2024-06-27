@@ -1,25 +1,27 @@
-import { Banner } from "./components/Banner";
-import { Features } from "./components/Features";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Footer } from "./components/Footer";
-import { Gallery } from "./components/Gallery";
 import { Navbar } from "./components/Navbar";
-import { Proyects } from "./components/Proyects";
-import { Stats } from "./components/Stats";
-// import { Slider } from "./components/Slider";
-import { Testimonial } from "./components/Testimonial";
+import  Home  from "./pages/home/Home"
+import  Jobs  from "./pages/Jobs/Jobs"
+import  Services  from "./pages/Services/Services"
+import  AboutUs  from "./pages/AboutUs/AboutUs"
+import  Contact  from "./pages/Contact/Contact"
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Banner />
-      <Stats />
-      <Features />
-      <Proyects />
-      {/* <Slider /> */}
-      <Testimonial/>
-      <Gallery/>
-      <Footer/>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Navbar/>}>
+            <Route path="/" element={ <Home/> }/>
+            <Route path="/jobs" element={ <Jobs/> }/>
+            <Route path="/services" element={ <Services /> }/>
+            <Route path="/aboutus" element={ <AboutUs/> }/>
+            <Route path="/contact" element={ <Contact/> }/>
+          </Route>
+        </Routes>
+      </BrowserRouter>
+      <Footer />
     </>
   );
 }

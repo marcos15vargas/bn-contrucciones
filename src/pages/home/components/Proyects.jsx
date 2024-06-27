@@ -1,7 +1,7 @@
-import img1 from "../assets/proyects/1.webp";
-import img2 from "../assets/proyects/2.webp";
-import img3 from "../assets/proyects/3.webp";
-import img4 from "../assets/proyects/4.webp";
+import img1 from "../../../assets/proyects/1.webp";
+import img2 from "../../../assets/proyects/2.webp";
+import img3 from "../../../assets/proyects/3.webp";
+import img4 from "../../../assets/proyects/4.webp";
 
 export const Proyects = () => {
   return (
@@ -45,3 +45,5 @@ export const Proyects = () => {
     </section>
   );
 };
+
+export default Proyects;

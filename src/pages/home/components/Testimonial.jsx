@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
-import { testimonial } from "../constants";
+import { testimonial } from "../../../constants/index";
 
 export const Testimonial = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -78,39 +78,36 @@ export const Testimonial = () => {
           <div ref={sliderRef} className="keen-slider">
             {/* cards */}
             {testimonial.map((testimonial, index) => (
-                <div key={index} className={`keen-slider__slide number-slide${index + 1}`}>
+              <div
+                key={index}
+                className={`keen-slider__slide number-slide${index + 1}`}
+              >
                 <blockquote className="flex h-full flex-col justify-between bg-white p-6 shadow-sm sm:p-8 lg:p-12">
                   <div>
                     <div className="flex items-center gap-4">
-
-                        <img
+                      <img
                         alt=""
                         src={testimonial.image}
                         className="size-14 rounded-full object-cover"
-                        />
+                      />
                       <p className="text-2xl font-bold text-azul sm:text-2xl">
                         {testimonial.title}
                       </p>
                     </div>
-  
+
                     <div className="mt-4">
-  
                       <p className="mt-4 leading-relaxed text-gray-700">
                         {testimonial.text}
                       </p>
                     </div>
                   </div>
-  
+
                   <footer className="mt-4 text-md font-medium text-gray-700 sm:mt-6">
                     &mdash; {testimonial.name}
                   </footer>
                 </blockquote>
               </div>
             ))}
-
-
-
-
           </div>
         </div>
         {loaded && instanceRef.current && (
@@ -156,3 +153,5 @@ function Arrow({ disabled, left, onClick }) {
     </svg>
   );
 }
+
+export default Testimonial;

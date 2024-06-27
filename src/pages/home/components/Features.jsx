@@ -1,4 +1,4 @@
-import { features } from "../constants";
+import { features } from "../../../constants/index";
 
 export const Features = () => {
   return (
@@ -26,3 +26,5 @@ export const Features = () => {
     </section>
   );
 };
+
+export default Features;

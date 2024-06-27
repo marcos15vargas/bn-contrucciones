@@ -1,7 +1,7 @@
-import image1 from "../assets/proyects/1.webp";
-import image2 from "../assets/proyects/2.webp";
-import image3 from "../assets/proyects/3.webp";
-import image4 from "../assets/proyects/4.webp";
+import image1 from "../../../assets/proyects/1.webp";
+import image2 from "../../../assets/proyects/2.webp";
+import image3 from "../../../assets/proyects/3.webp";
+import image4 from "../../../assets/proyects/4.webp";
 
 export const Gallery = () => {
   return (
@@ -81,3 +81,5 @@ export const Gallery = () => {
     </section>
   );
 };
+
+export default Gallery;

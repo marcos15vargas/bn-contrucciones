@@ -1,6 +1,6 @@
 import { Phone } from "lucide-react";
-import { banner } from "../constants";
-import imgBanner from "../assets/banner.webp"
+import { banner } from "../../../constants/index";
+import imgBanner from "../../../assets/banner.webp";
 
 export const Banner = () => {
   return (
@@ -61,3 +61,5 @@ export const Banner = () => {
     </div>
   );
 };
+
+export default Banner;

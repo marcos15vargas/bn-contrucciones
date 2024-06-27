@@ -1,6 +1,6 @@
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import { slider } from "../constants";
+import { slider } from "../../../constants/index";
 
 export const Slider = () => {
   const buttonStyle = {
@@ -52,3 +52,5 @@ export const Slider = () => {
     </div>
   );
 };
+
+export default Slider;
