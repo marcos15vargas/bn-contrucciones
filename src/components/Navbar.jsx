@@ -58,7 +58,7 @@ export const Navbar = () => {
                     <ul className="self-center">
                       {navItems.map((item, index) => (
                         <li key={index} className="py-2 text-2xl uppercase">
-                          <Link className="text-slate-200" to={item.link}>
+                          <Link className="text-slate-200" to={item.href}>
                             {item.menu}
                           </Link>
                         </li>
