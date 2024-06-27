@@ -2,7 +2,7 @@ import { navItems } from "../constants";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import Logo from "../assets/Logo";
-import { HashRouter, Link, Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 export const Navbar = () => {
   const [mobileDrawerOpen, setmobileDrawerOpen] = useState(false);
@@ -29,7 +29,6 @@ export const Navbar = () => {
                   <ul className="flex items-center gap-6 text-sm">
                     {navItems.map((item, index) => (
                       <li key={index}>
-                        <HashRouter>
                           <Link
                             className="text-slate-200 transition hover:text-gray-500/75 uppercase"
                             to={item.href}
@@ -37,7 +36,6 @@ export const Navbar = () => {
                             {" "}
                             {item.menu}{" "}
                           </Link>
-                        </HashRouter>
                       </li>
                     ))}
                   </ul>
