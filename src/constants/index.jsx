@@ -183,3 +183,27 @@ export const stats = [
     icon:<UserRound />
   },
 ]
+
+//seccion NOSOTROS
+export const team = [
+  {
+    name: "Martin Reinoso",
+    role: "Socio Fundador",
+    image: "https://cdn.pixabay.com/photo/2015/06/11/11/39/businessman-805769_1280.jpg",
+  },
+  {
+    name: "Lucas Reinoso",
+    role: "Socio Fundador",
+    image: "https://randomuser.me/api/portraits/men/76.jpg",
+  },
+  {
+    name: "Lisandro Robledo",
+    role: "Arquitecto",
+    image: "https://randomuser.me/api/portraits/men/77.jpg",
+  },
+  {
+    name: "Ezequiel Riveros",
+    role: "Electricista Certificado",
+    image: "https://randomuser.me/api/portraits/men/78.jpg",
+  },
+]
