@@ -12,9 +12,9 @@ const AboutUs = () => {
     <section id="about">
       <Hero title="Sobre Nosotros" image={image}/>
       <Info/>
-      <Stats/>
       {/* <Team/> */}
       <Team2/>
+      <Stats/>
     </section>
   )
 }

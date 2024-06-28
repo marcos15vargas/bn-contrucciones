@@ -3,7 +3,7 @@ const Info = () => {
     <section className="pt-16">
       <div className="max-w-5xl px-5 sm:px-6 sm:py-4 lg:px-8 lg:py-6 m-auto">
         <h2 className="text-xl lg:text-3xl text-black underline decoration-azul font-bold">
-          Vision
+          Visión
         </h2>
         <p className="mt-4 text-sm lg:text-xl text-justify text-stone-800">
           En <strong>BN Construcciones</strong>, nuestra visión es ser líderes
@@ -29,7 +29,7 @@ const Info = () => {
       </div>
       <div className="max-w-5xl px-5 sm:px-6 sm:py-4 lg:px-8 lg:py-6 m-auto">
         <h2 className="text-xl lg:text-3xl text-black underline decoration-azul font-bold">
-          Mision
+          Misión
         </h2>
         <p className="mt-4 text-sm lg:text-xl text-justify text-stone-800">
           Miramos hacia el futuro con la firme convicción de seguir innovando y 
