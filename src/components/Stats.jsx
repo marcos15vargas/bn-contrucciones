@@ -1,4 +1,4 @@
-import { stats } from "../../../constants/index";
+import { stats } from "../constants/index";
 
 export const Stats = () => {
   return (
