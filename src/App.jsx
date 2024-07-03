@@ -6,6 +6,7 @@ import Jobs from "./pages/Jobs/Jobs";
 import Services from "./pages/Services/Services";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import Contact from "./pages/Contact/Contact";
+import Page404 from "./pages/Page404/Page404";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/aboutus" element={<AboutUs />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/*" element={<Page404 />} />
           </Route>
         </Routes>
       </HashRouter>
