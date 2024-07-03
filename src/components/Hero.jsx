@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types';
 
 // eslint-disable-next-line react/prop-types
 const Hero = ( {title, image} ) => {
@@ -18,5 +18,10 @@ const Hero = ( {title, image} ) => {
     </div>
   );
 };
+
+Hero.PropTypes = {
+  title: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired
+}
 
 export default Hero;
