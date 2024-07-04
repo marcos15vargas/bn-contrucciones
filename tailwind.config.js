@@ -10,6 +10,7 @@ export default {
     extend: {
       colors:{
         "azul" : "#023355",
+        "fondo" : "#f9fbf5",
       }
     },
   },
