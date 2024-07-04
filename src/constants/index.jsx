@@ -210,7 +210,7 @@ export const team = [
 
 //seccion Jobs
 
-import imageModal from "https://cdn.pixabay.com/photo/2024/04/05/05/17/business-8676529_640.jpg"
+import imageModal from "../assets/slider/slider1.webp";
 
 export const jobs = [
   {
