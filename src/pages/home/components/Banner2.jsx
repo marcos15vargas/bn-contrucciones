@@ -1,4 +1,3 @@
-import { Phone } from "lucide-react";
 import { banner } from "../../../constants/index";
 import imgBanner from "../../../assets/banner.webp";
 import Logo from "../../../assets/Logo";
@@ -7,11 +6,11 @@ const Banner2 = () => {
   return (
     <div>
       <section className="grid grid-cols-1 gap-0 bg-opacity-25 md:grid-cols-2">
-        <div className="flex flex-col items-start justify-center px-4 py-24 lg:px-20">
+        <div className="flex flex-col items-start justify-center px-4 py-16 lg:px-20">
           <div className="w-56 m-auto mb-12">
-            <Logo className="size-12"  color={"#023355"} />
+            <Logo className="size-12" color={"#023355"} />
           </div>
-          <div className="flex flex-wrap my-4">
+          <div className="flex flex-wrap my-4 max-w-2xl m-auto">
             {banner.map((banner, index) => (
               <div
                 key={index}
@@ -28,24 +27,10 @@ const Banner2 = () => {
           </div>
           <div className="m-auto mt-4">
             <a
-              className="inline-block rounded bg-azul px-8 py-3 text-sm font-medium text-white transition hover:rotate-2 hover:scale-110 focus:outline-none focus:ring active:bg-azul/75 mx-1 sm:mx-2"
+              className="inline-block rounded bg-azul px-7 py-3 text-lg font-bold text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-azul/75"
               href="#"
             >
-              CONTACTO
-            </a>
-
-            <a
-              className="group relative inline-flex items-center overflow-hidden rounded border border-current px-8 py-3 text-azul focus:outline-none focus:ring active:text-indigo-500 mx-1 sm:mx-2"
-              href="#"
-            >
-              <span className="absolute -end-full transition-all group-hover:end-4">
-                <Phone className="size-5 rtl:rotate-180" />
-              </span>
-
-              <span className="text-sm font-medium transition-all group-hover:me-4">
-                {" "}
-                WhatsApp{" "}
-              </span>
+              Contacto
             </a>
           </div>
         </div>
@@ -59,7 +44,7 @@ const Banner2 = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default Banner2
+export default Banner2;
