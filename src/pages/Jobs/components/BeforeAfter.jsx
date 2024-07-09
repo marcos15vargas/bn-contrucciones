@@ -1,5 +1,5 @@
-import imageBefore from "../../../assets/beforeAfter/despues.webp";
-import imageAfter from "../../../assets/beforeAfter/antes.webp";
+import imageBefore from "../../../assets/beforeAfter/antes.webp";
+import imageAfter from "../../../assets/beforeAfter/despues.webp";
 
 const BeforeAfter = () => {
   return (
