@@ -1,5 +1,5 @@
 import imageBefore from "../../../assets/beforeAfter/despues.webp";
-import imageAfter from "../../../assets/beforeAfter/Antes_v1.webp";
+import imageAfter from "../../../assets/beforeAfter/antes.webp";
 
 const BeforeAfter = () => {
   return (
@@ -11,10 +11,10 @@ const BeforeAfter = () => {
         <div className="bebore-after p-4 flex">
           <div className="diff aspect-[3/2] max-w-xl h-[500px]">
             <div className="diff-item-1">
-              <img alt="daisy" src={imageBefore} />
+              <img alt="daisy" src={imageAfter} />
             </div>
             <div className="diff-item-2">
-              <img alt="daisy" src={imageAfter} />
+              <img alt="daisy" src={imageBefore} />
             </div>
             <div className="diff-resizer"></div>
           </div>
