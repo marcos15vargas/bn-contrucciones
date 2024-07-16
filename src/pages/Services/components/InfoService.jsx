@@ -10,7 +10,7 @@ const InfoService = () => {
               Servicios
             </h1>
           </div>
-          <p className="lg:w-3/4 w-full leading-relaxed text-xl">
+          <p className="lg:w-3/4 w-full leading-relaxed text-xl text-stone-800">
           En <strong>BN Construcciones</strong>, ofrecemos una gama completa de servicios para satisfacer todas tus necesidades de construcción y renovación. Nuestro equipo de profesionales está comprometido con la calidad y la eficiencia en cada proyecto.
           </p>
         </div>
@@ -26,7 +26,7 @@ const InfoService = () => {
                 <h2 className="text-2xl text-azul font-bold mb-4">
                   {item.title}
                 </h2>
-                <p className="leading-relaxed text-base">
+                <p className="text-stone-800 leading-relaxed text-base ">
                   {item.description}
                 </p>
               </div>
