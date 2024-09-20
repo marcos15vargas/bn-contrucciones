@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import img1 from "../../../assets/proyects/1.webp";
 import img2 from "../../../assets/proyects/2.webp";
 import img3 from "../../../assets/proyects/3.webp";
@@ -21,9 +22,7 @@ export const Proyects = () => {
           que mejoran la calidad de vida de las personas y agregan valor a
           nuestros clientes.
         </p>
-        <a className="font-bold text-xl text-azul underline" href="#">
-          Ver mas
-        </a>
+        <Link to="/jobs" href="#home" className="font-bold text-xl text-azul underline">Ver Mas</Link>
       </div>
       <div className="w-full md:w-1/2">
         <div className="grid grid-cols-4 grid-rows-4 gap-4 p-8 m-auto">

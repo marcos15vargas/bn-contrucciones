@@ -1,6 +1,7 @@
 import { banner } from "../../../constants/index";
 import imgBanner from "../../../assets/banner.webp";
 import Logo from "../../../assets/Logo";
+import { Link } from "react-router-dom";
 
 const Banner2 = () => {
   return (
@@ -26,12 +27,7 @@ const Banner2 = () => {
             ))}
           </div>
           <div className="m-auto mt-4">
-            <a
-              className="inline-block rounded bg-azul px-7 py-3 text-lg font-bold text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-azul/75"
-              href="#"
-            >
-              Contacto
-            </a>
+            <Link to="/contact" className="inline-block rounded bg-azul px-7 py-3 text-lg font-bold text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-azul/75">Contactanos</Link>
           </div>
         </div>
         <div>

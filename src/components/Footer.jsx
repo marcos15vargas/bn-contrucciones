@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from "../assets/Logo";
 
 export const Footer = () => {
@@ -100,40 +101,19 @@ export const Footer = () => {
 
               <ul className="mt-8 space-y-4 text-sm">
                 <li>
-                  <a
-                    className="text-slate-200 transition hover:text-slate-200/75"
-                    href="#"
-                  >
-                    Historia de la Empresa
-                  </a>
+                  <Link to="/jobs" className="text-slate-200 transition hover:text-slate-200/75">Historia de la empresa</Link>
                 </li>
 
                 <li>
-                  <a
-                    className="text-slate-200 transition hover:text-slate-200/75"
-                    href="#"
-                  >
-                    Conoce Nustro Equipo
-                  </a>
+                  <Link to="/aboutus" className="text-slate-200 transition hover:text-slate-200/75">Nuestro Equipo</Link>
                 </li>
 
                 <li>
-                  <a
-                    className="text-slate-200 transition hover:text-slate-200/75"
-                    href="#"
-                  >
-                    Galeria
-                  </a>
+                <Link to="/jobs" className="text-slate-200 transition hover:text-slate-200/75">Galeria</Link>
                 </li>
 
                 <li>
-                  <a
-                    className="text-slate-200 transition hover:text-slate-200/75"
-                    href="#"
-                  >
-                    {" "}
-                    Proyectos{" "}
-                  </a>
+                  <Link to="/jobs" className="text-slate-200 transition hover:text-slate-200/75">Proyectos</Link>
                 </li>
               </ul>
             </div>
@@ -143,42 +123,23 @@ export const Footer = () => {
 
               <ul className="mt-8 space-y-4 text-sm">
                 <li>
-                  <a
-                    className="text-slate-200 transition hover:text-slate-200/75"
-                    href="#"
-                  >
-                    Web Development
-                  </a>
+                  <Link to="/#" className="text-slate-200 transition hover:text-slate-200/75">Inicio</Link>
                 </li>
 
                 <li>
-                  <a
-                    className="text-slate-200 transition hover:text-slate-200/75"
-                    href="#"
-                  >
-                    {" "}
-                    Web Design{" "}
-                  </a>
+                  <Link to="/jobs" className="text-slate-200 transition hover:text-slate-200/75"> Trabajos</Link>
                 </li>
 
                 <li>
-                  <a
-                    className="text-slate-200 transition hover:text-slate-200/75"
-                    href="#"
-                  >
-                    {" "}
-                    Marketing{" "}
-                  </a>
+                  <Link to="/services" className="text-slate-200 transition hover:text-slate-200/75">Servicios</Link>
                 </li>
 
                 <li>
-                  <a
-                    className="text-slate-200 transition hover:text-slate-200/75"
-                    href="#"
-                  >
-                    {" "}
-                    Google Ads{" "}
-                  </a>
+                  <Link to="/aboutus" className="text-slate-200 transition hover:text-slate-200/75">Nosotros</Link>
+                </li>
+
+                <li>
+                  <Link to="/contact" className="text-slate-200 transition hover:text-slate-200/75">Contacto</Link>
                 </li>
               </ul>
             </div>
