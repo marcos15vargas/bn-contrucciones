@@ -23,7 +23,12 @@ import perfil3 from "../assets/testimonial/perfil3.webp";
 import perfil4 from "../assets/testimonial/perfil4.webp";
 import perfil5 from "../assets/testimonial/perfil5.webp";
 
-
+//imagenes para seccion servicios
+import construccion from "../assets/services/construccion.webp";
+import electricidad from "../assets/services/electricidad.webp";
+import pintura from "../assets/services/pintura.webp";
+import plomeria from "../assets/services/plomeria.webp";
+import arquitectura from "../assets/services/arquitectura.webp";
 
 export const navItems = [
   {
@@ -77,12 +82,12 @@ export const banner = [
 export const features = [
   {
     title: "Electricidad",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cumque tempore est ab possimus quisquam reiciendis tempora animi! Quaerat, saepe?",
+    text: "Nuestro equipo de electricistas cuenta con amplia experiencia y formación continua en las últimas tecnologías y normativas del sector, garantizando soluciones seguras y modernas. Utilizamos materiales de primera calidad y nos aseguramos de que cada proyecto cumpla con los más altos estándares de seguridad y durabilidad. Diseñamos soluciones eléctricas a medida para cada cliente.",
     icon: <Cable />,
   },
   {
     title: "Construccion",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cumque tempore est ab possimus quisquam reiciendis tempora animi! Quaerat, saepe?",
+    text: "Nuestro equipo combina años de experiencia con una dedicación inigualable, garantizando resultados excepcionales en cada proyecto. Cada proyecto se realiza con materiales de primera calidad y una atención meticulosa al detalle, asegurando estructuras duraderas y estéticamente impresionantes. Trabajamos estrechamente con nuestros clientes para ofrecer soluciones personalizadas que se adapten a sus necesidades y superen sus expectativas.",
     icon: <HardHat />,
   },
   {
@@ -97,12 +102,12 @@ export const features = [
   },
   {
     title: "Remodelacion",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cumque tempore est ab possimus quisquam reiciendis tempora animi! Quaerat, saepe?",
+    text: "Nuestro equipo de renovaciones cuenta con una amplia experiencia y la versatilidad necesaria para realizar cualquier tipo de renovación, desde cocinas y baños hasta espacios exteriores y proyectos completos. Nos comprometemos a utilizar materiales de alta calidad y aplicar técnicas precisas para asegurar que cada proyecto cumpla con los más altos estándares de durabilidad y estética. Trabajamos de cerca con nuestros clientes para diseñar soluciones personalizadas que reflejen sus necesidades y gustos, garantizando resultados que superen sus expectativas",
     icon: <BrickWall />,
   },
   {
     title: "Pintura",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cumque tempore est ab possimus quisquam reiciendis tempora animi! Quaerat, saepe?",
+    text: " Nuestros pintores cuenta con una amplia experiencia y habilidad. Utilizamos pinturas y materiales de primera calidad, garantizando resultados duraderos y estéticamente impecables en cada proyecto. Ofrecemos servicios de pintura personalizados que se adaptan a las necesidades y gustos de cada cliente, creando ambientes únicos y acogedores.",
     icon: <PaintRoller />,
   },
 ];
@@ -163,14 +168,14 @@ export const testimonial = [
 
 export const stats = [
   {
+    title: "Años de Trayectoria",
+    number: "+10",
+    icon:<TrendingUp/>
+  },
+  {
     title: "Proyectos",
     number: "+600",
     icon: <ClipboardList/>,
-  },
-  {
-    title: "Años de Trayectoria",
-    number: "+55",
-    icon:<TrendingUp/>
   },
   {
     title: "Colaboradores",
@@ -187,13 +192,13 @@ export const stats = [
 //seccion NOSOTROS
 export const team = [
   {
-    name: "Martin Reinoso",
-    role: "Socio Fundador",
+    name: "Norberto Reinoso",
+    role: "Presidente - Jefe de Obra",
     image: "https://cdn.pixabay.com/photo/2015/06/11/11/39/businessman-805769_1280.jpg",
   },
   {
-    name: "Lucas Reinoso",
-    role: "Socio Fundador",
+    name: "Gabriel Castro",
+    role: "Jefe de Obra",
     image: "https://randomuser.me/api/portraits/men/76.jpg",
   },
   {
@@ -304,32 +309,32 @@ export const jobs = [
 export const services = [
   {
     title: "Electricidad",
-    image: imageModal,
+    image: electricidad,
     description: "Proveemos servicios completos de instalación eléctrica, mantenimiento y reparación para proyectos residenciales, comerciales e industriales. Nuestro equipo de electricistas certificados garantiza seguridad y eficiencia en cada trabajo, cumpliendo con las normativas vigentes y utilizando materiales de alta calidad.",
   },
   {
     title: "Construcción",
-    image: imageModal,
+    image: construccion,
     description: "Ofrecemos soluciones integrales de construcción, abarcando desde la planificación y diseño hasta la ejecución y entrega del proyecto. Nos especializamos en la construcción de viviendas, edificios comerciales e industriales, garantizando plazos de entrega y estándares de calidad superiores.",
   },
   {
     title: "Arquitectura",
-    image: imageModal,
+    image: arquitectura,
     description: "Nuestro equipo de arquitectos crea diseños innovadores y funcionales, adaptados a las necesidades y preferencias de cada cliente. Desde proyectos residenciales hasta complejos comerciales, transformamos tus ideas en espacios únicos y sostenibles, cuidando cada detalle del proceso.",
   },
   {
     title: "Plomería",
-    image: imageModal,
+    image: plomeria,
     description: "Brindamos servicios de plomería profesional para instalaciones nuevas, reparaciones y mantenimiento. Nos aseguramos de que los sistemas de agua y desagüe funcionen de manera óptima, utilizando tecnología avanzada y prácticas seguras para un rendimiento duradero.",
   },
   {
     title: "Electricidad",
-    image: imageModal,
+    image: electricidad,
     description: "Especialistas en remodelaciones, renovamos y transformamos tus espacios existentes para que se adapten a tus necesidades y estilo de vida. Ya sea una cocina, baño o un espacio comercial, nuestro equipo trabaja con precisión y creatividad para revitalizar tus ambientes.",
   },
   {
     title: "Pintura",
-    image: imageModal,
+    image: pintura,
     description: "Ofrecemos servicios de pintura interior y exterior, aplicando técnicas profesionales y productos de alta calidad para lograr acabados impecables. Nuestro equipo se encarga de todo el proceso, desde la preparación de superficies hasta la aplicación final, asegurando resultados duraderos y estéticamente agradables.",
   },
 ]
