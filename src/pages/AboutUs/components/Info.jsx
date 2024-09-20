@@ -2,6 +2,17 @@ const Info = () => {
   return (
     <section className="pt-16">
       <div className="max-w-5xl px-5 sm:px-6 sm:py-4 lg:px-8 lg:py-6 m-auto">
+        
+        <p className="mt-4 text-sm lg:text-xl text-justify text-stone-800">
+        Bienvenidos a <strong>BN Construcciones</strong>, donde la excelencia se encuentra en cada conexión.
+        Somos una empresa constructora de sólida trayectoria y experiencia, con un equipo profesional plenamente comprometido con el cumplimiento y capaz de brindar múltiples soluciones en forma rápida, creativa y eficaz.
+        <br /><br />
+        Nuestro esfuerzo se refleja en obras, tanto privadas como públicas, que mejoran la calidad de vida de las personas y agregan valor a nuestros clientes. Utilizamos materiales de primera calidad y nos aseguramos de que cada proyecto cumpla con los más altos estándares de seguridad y durabilidad.
+        La satisfacción de nuestros clientes es nuestra mayor recompensa, avalada por numerosos testimonios de éxito y confianza. 
+
+        </p>
+      </div>
+      <div className="max-w-5xl px-5 sm:px-6 sm:py-4 lg:px-8 lg:py-6 m-auto">
         <h2 className="text-xl lg:text-3xl text-black underline decoration-azul font-bold">
           Visión
         </h2>

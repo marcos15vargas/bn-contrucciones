@@ -15,11 +15,11 @@ const Team2 = () => {
             <div key={index} className="p-4 lg:w-1/4 md:w-1/2 m-auto">
               <div className="h-full flex flex-col items-center text-center">
                 <div className="overflow-hidden w-full mb-4">
-                <img
-                  alt="team"
-                  className="flex-shrink-0 w-56 h-56 object-cover object-center  hover:scale-105 transition-all duration-300"
-                  src={item.image}
-                />
+                  <img
+                    alt="team"
+                    className="m-auto flex-shrink-0 w-56 h-56 object-cover object-center  hover:scale-105 transition-all duration-300"
+                    src={item.image}
+                  />
                 </div>
                 <div className="w-full">
                   <h2 className="title-font font-bold text-lg text-gray-900">
