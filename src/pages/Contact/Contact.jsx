@@ -1,5 +1,5 @@
 import Hero from "../../components/Hero";
-import Map from "./components/Map";
+// import Map from "./components/Map";
 // import Form1 from "./components/Form1";
 import Options from "./components/Options";
 import ScrollToTop from "../../components/ScrollToTop";
@@ -15,7 +15,7 @@ const Contact = () => {
       />
       {/* <Form1 /> */}
       <Options/>
-      <Map/>
+      {/* <Map/> */}
     </>
   );
 };

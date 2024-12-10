@@ -14,24 +14,24 @@ const Options = () => {
           </div>
           <div className="mt-8">
             <Avatar
-              name="lucas Reinoso"
-              number="264 000-0000"
+              name="Norberto Reinoso"
+              number="264 415-0563"
               image={image}
               link="#"
             />
             <Avatar
-              name="Lisandro Robledo"
-              number="264 000-0000"
+              name="Gabriel Castro"
+              number="264 570-8166"
               image={image}
               link="#"
             />
             <Avatar
-              name="Whatsapp Oficial"
-              number="264 000-0000"
+              name="Whatsapp BN Construcciones"
+              number="264 563-3714"
               image={image}
               link="#"
             />
-            <Avatar
+            {/* <Avatar
               name="Facebook"
               number="BN construcciones"
               image={image}
@@ -42,7 +42,7 @@ const Options = () => {
               number="@bn_construcciones"
               image={image}
               link="#"
-            />
+            /> */}
           </div>
         </div>
 

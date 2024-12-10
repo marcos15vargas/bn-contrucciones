@@ -11,11 +11,11 @@ export const Gallery = () => {
           <h3 className="sm:text-4xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4 underline decoration-azul">
             Galeria de Nuestros Trabajos
           </h3>
-          <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
+          {/* <p className="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
             Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
             gentrify, subway tile poke farm-to-table. Franzen you probably
             havent heard of them man bun deep jianbing selfies heirloom.
-          </p>
+          </p> */}
         </div>
         <div className="flex flex-wrap md:-m-2 -m-1">
           <div className="flex flex-wrap w-1/2">

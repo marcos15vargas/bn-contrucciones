@@ -2,10 +2,10 @@ import {
   BrickWall,
   Cable,
   CircleCheck,
-  DraftingCompass,
+// DraftingCompass,
   HardHat,
   PaintRoller,
-  ShowerHead,
+  // ShowerHead,
   ClipboardList,
   TrendingUp,
   Handshake,
@@ -27,8 +27,9 @@ import perfil5 from "../assets/testimonial/perfil5.webp";
 import construccion from "../assets/services/construccion.webp";
 import electricidad from "../assets/services/electricidad.webp";
 import pintura from "../assets/services/pintura.webp";
-import plomeria from "../assets/services/plomeria.webp";
-import arquitectura from "../assets/services/arquitectura.webp";
+import remodelacion from "../assets/services/remodelacion.webp";
+// import plomeria from "../assets/services/plomeria.webp";
+// import arquitectura from "../assets/services/arquitectura.webp";
 
 export const navItems = [
   {
@@ -91,23 +92,13 @@ export const features = [
     icon: <HardHat />,
   },
   {
-    title: "Arquitectura",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cumque tempore est ab possimus quisquam reiciendis tempora animi! Quaerat, saepe?",
-    icon: <DraftingCompass />,
-  },
-  {
-    title: "Plomeria",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error cumque tempore est ab possimus quisquam reiciendis tempora animi! Quaerat, saepe?",
-    icon: <ShowerHead />,
-  },
-  {
     title: "Remodelacion",
-    text: "Nuestro equipo de renovaciones cuenta con una amplia experiencia y la versatilidad necesaria para realizar cualquier tipo de renovación, desde cocinas y baños hasta espacios exteriores y proyectos completos. Nos comprometemos a utilizar materiales de alta calidad y aplicar técnicas precisas para asegurar que cada proyecto cumpla con los más altos estándares de durabilidad y estética. Trabajamos de cerca con nuestros clientes para diseñar soluciones personalizadas que reflejen sus necesidades y gustos, garantizando resultados que superen sus expectativas",
+    text: "Nuestro equipo de renovaciones combina experiencia y versatilidad para abordar proyectos variados, desde cocinas y baños hasta espacios exteriores. Nos comprometemos a emplear materiales de alta calidad y técnicas precisas, garantizando estándares de durabilidad y estética. Colaboramos estrechamente con los clientes para crear soluciones personalizadas que reflejen sus necesidades y gustos, asegurando resultados que superen sus expectativas.",
     icon: <BrickWall />,
   },
   {
     title: "Pintura",
-    text: " Nuestros pintores cuenta con una amplia experiencia y habilidad. Utilizamos pinturas y materiales de primera calidad, garantizando resultados duraderos y estéticamente impecables en cada proyecto. Ofrecemos servicios de pintura personalizados que se adaptan a las necesidades y gustos de cada cliente, creando ambientes únicos y acogedores.",
+    text: " Nuestros pintores aportan experiencia y habilidad en cada proyecto. Usamos materiales de primera calidad para garantizar acabados duraderos y estéticamente impecables. Brindamos servicios de pintura personalizados, diseñados para adaptarse a las necesidades y preferencias de nuestros clientes, creando espacios únicos y acogedores que destacan por su calidad y estilo.",
     icon: <PaintRoller />,
   },
 ];
@@ -169,22 +160,22 @@ export const testimonial = [
 export const stats = [
   {
     title: "Años de Trayectoria",
-    number: "+10",
+    number: "+15",
     icon:<TrendingUp/>
   },
   {
     title: "Proyectos",
-    number: "+600",
+    number: "+100",
     icon: <ClipboardList/>,
   },
   {
     title: "Colaboradores",
-    number: "+1000",
+    number: "+10",
     icon:<Handshake/>
   },
   {
-    title: "Tecnicos Certificados",
-    number: "+150",
+    title: "Clientes Satisfechos",
+    number: "99%",
     icon:<UserRound />
   },
 ]
@@ -202,13 +193,13 @@ export const team = [
     image: "https://randomuser.me/api/portraits/men/76.jpg",
   },
   {
-    name: "Lisandro Robledo",
-    role: "Arquitecto",
+    name: "Claudio Reinoso",
+    role: "Especialista en Pintura",
     image: "https://randomuser.me/api/portraits/men/77.jpg",
   },
   {
-    name: "Ezequiel Riveros",
-    role: "Electricista Certificado",
+    name: "Roberto Cortez",
+    role: "Electricista Matriculado",
     image: "https://randomuser.me/api/portraits/men/78.jpg",
   },
 ]
@@ -317,19 +308,19 @@ export const services = [
     image: construccion,
     description: "Ofrecemos soluciones integrales de construcción, abarcando desde la planificación y diseño hasta la ejecución y entrega del proyecto. Nos especializamos en la construcción de viviendas, edificios comerciales e industriales, garantizando plazos de entrega y estándares de calidad superiores.",
   },
+  // {
+  //   title: "Arquitectura",
+  //   image: arquitectura,
+  //   description: "Nuestro equipo de arquitectos crea diseños innovadores y funcionales, adaptados a las necesidades y preferencias de cada cliente. Desde proyectos residenciales hasta complejos comerciales, transformamos tus ideas en espacios únicos y sostenibles, cuidando cada detalle del proceso.",
+  // },
+  // {
+  //   title: "Plomería",
+  //   image: plomeria,
+  //   description: "Brindamos servicios de plomería profesional para instalaciones nuevas, reparaciones y mantenimiento. Nos aseguramos de que los sistemas de agua y desagüe funcionen de manera óptima, utilizando tecnología avanzada y prácticas seguras para un rendimiento duradero.",
+  // },
   {
-    title: "Arquitectura",
-    image: arquitectura,
-    description: "Nuestro equipo de arquitectos crea diseños innovadores y funcionales, adaptados a las necesidades y preferencias de cada cliente. Desde proyectos residenciales hasta complejos comerciales, transformamos tus ideas en espacios únicos y sostenibles, cuidando cada detalle del proceso.",
-  },
-  {
-    title: "Plomería",
-    image: plomeria,
-    description: "Brindamos servicios de plomería profesional para instalaciones nuevas, reparaciones y mantenimiento. Nos aseguramos de que los sistemas de agua y desagüe funcionen de manera óptima, utilizando tecnología avanzada y prácticas seguras para un rendimiento duradero.",
-  },
-  {
-    title: "Electricidad",
-    image: electricidad,
+    title: "Remodelación",
+    image: remodelacion,
     description: "Especialistas en remodelaciones, renovamos y transformamos tus espacios existentes para que se adapten a tus necesidades y estilo de vida. Ya sea una cocina, baño o un espacio comercial, nuestro equipo trabaja con precisión y creatividad para revitalizar tus ambientes.",
   },
   {

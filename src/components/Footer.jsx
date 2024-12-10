@@ -194,7 +194,7 @@ export const Footer = () => {
                       />
                     </svg>
 
-                    <span className="flex-1 text-slate-200">264 000-0000</span>
+                    <span className="flex-1 text-slate-200">264 563-3714</span>
                   </a>
                 </li>
 
