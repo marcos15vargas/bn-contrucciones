@@ -31,6 +31,12 @@ import remodelacion from "../assets/services/remodelacion.webp";
 // import plomeria from "../assets/services/plomeria.webp";
 // import arquitectura from "../assets/services/arquitectura.webp";
 
+//avatares
+// import avatar1 from "../assets/team/1.png";
+import avatar2 from "../assets/team/2.png";
+import avatar3 from "../assets/team/3.png";
+import avatar4 from "../assets/team/4.png";
+
 export const navItems = [
   {
     menu: "Inicio",
@@ -185,22 +191,22 @@ export const team = [
   {
     name: "Norberto Reinoso",
     role: "Presidente - Jefe de Obra",
-    image: "https://cdn.pixabay.com/photo/2015/06/11/11/39/businessman-805769_1280.jpg",
+    image: avatar2,
   },
   {
     name: "Gabriel Castro",
     role: "Jefe de Obra",
-    image: "https://randomuser.me/api/portraits/men/76.jpg",
+    image: avatar2,
   },
   {
     name: "Claudio Reinoso",
     role: "Especialista en Pintura",
-    image: "https://randomuser.me/api/portraits/men/77.jpg",
+    image: avatar4,
   },
   {
     name: "Roberto Cortez",
     role: "Electricista Matriculado",
-    image: "https://randomuser.me/api/portraits/men/78.jpg",
+    image: avatar3,
   },
 ]
 

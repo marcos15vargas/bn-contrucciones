@@ -1,6 +1,8 @@
 import Avatar from "./Avatar";
 
-const image = "https://dummyimage.com/80x80";
+// const image = "https://dummyimage.com/80x80";
+import avatar from "../../../assets/team/2.png";
+import logo from "../../../assets/logo_azul.png";
 
 const Options = () => {
   return (
@@ -16,19 +18,19 @@ const Options = () => {
             <Avatar
               name="Norberto Reinoso"
               number="264 415-0563"
-              image={image}
+              image={avatar}
               link="#"
             />
             <Avatar
               name="Gabriel Castro"
               number="264 570-8166"
-              image={image}
+              image={avatar}
               link="#"
             />
             <Avatar
               name="Whatsapp BN Construcciones"
               number="264 563-3714"
-              image={image}
+              image={logo}
               link="#"
             />
             {/* <Avatar
