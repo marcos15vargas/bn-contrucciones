@@ -6,6 +6,7 @@ const Avatar = ({ name, number, image, link }) => {
       <a
         className="h-full flex items-center border-gray-200 border p-4 rounded-lg mx-6 mb-4"
         href={link}
+        target="_blank"
       >
         <img
           alt="team"

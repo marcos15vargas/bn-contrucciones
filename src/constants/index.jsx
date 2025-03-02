@@ -125,20 +125,23 @@ export const slider = [
 ];
 
 
+// Familia Pandiella ampliación y construcción de departamento:
+// Proyectamos junto con el equipo todo lo que nosotros queríamos y sobre la marcha se iban haciendo cambios según nuestros gustos y necesidades cada uno cumplió con su parte fueron eficientes responsables destacamos el respeto los buenos modales el orden la limpieza al finalizar cada tarea cumplieron con los tiempos y con Los presupuestos acordados ampliamente recomendados por su eficiencia calidad de persona y calidad de trabajo siempre abiertos a escuchar y entre ambas partes encontrar soluciones convenientes para todos un grupo alegre que siempre fue a trabajar con ganas y sin dejar un solo día su responsabilidad muy agradecidos hoy disfrutamos de nuestro propio espacio
+
 export const testimonial = [
   {
     index: 1,
     image: perfil1,
-    title: "Construcción de Vivienda Unifamiliar",
-    text: "Estamos encantados con nuestra nueva casa. La atención al detalle y la calidad de los materiales utilizados fueron excepcionales. El equipo de construcción fue profesional y cumplió con los plazos establecidos. Sin duda, recomendaríamos sus servicios a cualquiera que busque una constructora confiable.",
-    name: "Maria Lopez",
+    title: "Construcción de Vivienda",
+    text: "Estamos felices !!!! hace más de un año vivimos en nuestro hogar tal cual lo soñamos, supieron entender cada pedido y dieron respuesta a nuestras necesidades tanto material como económica..gracias por ayudarnos a cumplir nuestro sueño, pasaron a ser parte de nuestra familia... recomendable al 100%",
+    name: "Familia Mariangeles Alamino - Franco Nechi",
   },
   {
     index: 2,
     image: perfil2,
-    title: "Renovación de Oficinas",
-    text: "La renovación de nuestras oficinas fue un éxito total gracias a esta empresa. Su equipo no solo entendió nuestras necesidades, sino que también aportó ideas innovadoras que mejoraron el diseño final. El resultado ha sido un espacio de trabajo moderno y funcional que ha incrementado la productividad de nuestro equipo.",
-    name: "Carlos Fernandez",
+    title: "Ampliación y construcción de departamento",
+    text: "Proyectamos junto con el equipo todo lo que nosotros queríamos y sobre la marcha se iban haciendo cambios según nuestros gustos y necesidades cada uno cumplió con su parte fueron eficientes responsables destacamos el respeto los buenos modales el orden la limpieza al finalizar cada tarea cumplieron con los tiempos y con Los presupuestos acordados ampliamente recomendados por su eficiencia calidad de persona y calidad de trabajo siempre abiertos a escuchar y entre ambas partes encontrar soluciones convenientes para todos un grupo alegre que siempre fue a trabajar con ganas y sin dejar un solo día su responsabilidad muy agradecidos hoy disfrutamos de nuestro propio espacio.",
+    name: "Familia Pandiella",
   },
   {
     index: 3,
@@ -212,92 +215,153 @@ export const team = [
 
 //seccion Jobs
 
-import imageModal from "../assets/slider/slider1.webp";
+
+//obra de zonda
+import imageObraZonda1 from "../assets/jobs/obra-zonda/1.webp";
+import imageObraZonda2 from "../assets/jobs/obra-zonda/2.webp";
+import imageObraZonda3 from "../assets/jobs/obra-zonda/3.webp";
+import imageObraZonda4 from "../assets/jobs/obra-zonda/4.webp";
+// import imageObraZonda5 from "../assets/jobs/obra-zonda/5.webp";
+import imageObraZonda6 from "../assets/jobs/obra-zonda/6.webp";
+//obra de zonda
+
+
+//piscina en ullum
+import imagePiscinaUllum1 from "../assets/jobs/piscina-ullum/1.webp";
+import imagePiscinaUllum2 from "../assets/jobs/piscina-ullum/2.webp";
+import imagePiscinaUllum3 from "../assets/jobs/piscina-ullum/3.webp";
+// import imagePiscinaUllum4 from "../assets/jobs/piscina-ullum/4.webp";
+import imagePiscinaUllum5 from "../assets/jobs/piscina-ullum/5.webp";
+// import imagePiscinaUllum6 from "../assets/jobs/piscina-ullum/6.webp";
+import imagePiscinaUllum7 from "../assets/jobs/piscina-ullum/7.webp";
+//piscina en ullum
+
+
+//pintura capital 1
+import pinturaCapital1_1 from "../assets/jobs/pintura-capital-1/1.webp";
+// import pinturaCapital1_2 from "../assets/jobs/pintura-capital-1/2.webp";
+import pinturaCapital1_3 from "../assets/jobs/pintura-capital-1/3.webp";
+import pinturaCapital1_4 from "../assets/jobs/pintura-capital-1/4.webp";
+// import pinturaCapital1_5 from "../assets/jobs/pintura-capital-1/5.webp";
+import pinturaCapital1_6 from "../assets/jobs/pintura-capital-1/6.webp";
+//pintura capital 1
+
+
+//renovacion capital 1
+import renovacionCapital1_1 from "../assets/jobs/renovacion-capital-1/1.webp";
+// import renovacionCapital1_2 from "../assets/jobs/renovacion-capital-1/2.webp";
+import renovacionCapital1_3 from "../assets/jobs/renovacion-capital-1/3.webp";
+// import renovacionCapital1_4 from "../assets/jobs/renovacion-capital-1/4.webp";
+import renovacionCapital1_5 from "../assets/jobs/renovacion-capital-1/5.webp";
+import renovacionCapital1_6 from "../assets/jobs/renovacion-capital-1/6.webp";
+// import renovacionCapital1_7 from "../assets/jobs/renovacion-capital-1/7.webp";
+import renovacionCapital1_8 from "../assets/jobs/renovacion-capital-1/8.webp";
+//renovacion capital 1
+
+
+
+//renovacion capital 2
+import renovacionCapital2_1 from "../assets/jobs/renovacion-capital-2/1.webp";
+// import renovacionCapital2_2 from "../assets/jobs/renovacion-capital-2/2.webp";
+import renovacionCapital2_3 from "../assets/jobs/renovacion-capital-2/3.webp";
+import renovacionCapital2_4 from "../assets/jobs/renovacion-capital-2/4.webp";
+import renovacionCapital2_5 from "../assets/jobs/renovacion-capital-2/5.webp";
+import renovacionCapital2_6 from "../assets/jobs/renovacion-capital-2/6.webp";
+//renovacion capital 2
+
+
+//pintura capital 2
+import pinturaCapital2_1 from "../assets/jobs/pintura-capital-2/1.webp";
+import pinturaCapital2_2 from "../assets/jobs/pintura-capital-2/2.webp";
+import pinturaCapital2_3 from "../assets/jobs/pintura-capital-2/3.webp";
+import pinturaCapital2_4 from "../assets/jobs/pintura-capital-2/4.webp";
+import pinturaCapital2_5 from "../assets/jobs/pintura-capital-2/5.webp";
+//pintura capital 2
 
 export const jobs = [
   {
-    title: "Residencial Las Flores",
-    image: imageModal,
-    description: "Construcción de un complejo de viviendas unifamiliares con diseño moderno y acabados de alta calidad.",
-    mt2: "3,500m2",
-    location: "San Jose, Costa Rica",
-    duration: "12 meses",
-    date: "Marzo 2023",
+    title: "Obra de Vivienda en Zonda",
+    image: imageObraZonda2,
+    description: "Construcción de un complejo de vivienda en el corazon de Zonda, totalmente equipada, piscina con sala de maquinas, baños y parrillero.",
+    mt2: "-",
+    location: "Zonda, San Juan",
+    duration: "3 meses",
+    date: "Enero 2025",
     nameModal: "my_modal_1",
-    imageModal1: imageModal,
-    imageModal2: imageModal,
-    imageModal3: imageModal,
-    imageModal4: imageModal,
+    imageModal1: imageObraZonda1,
+    imageModal2: imageObraZonda3,
+    imageModal3: imageObraZonda4,
+    imageModal4: imageObraZonda6,
   },
   {
-    title: "Centro Comercial El Dorado",
-    image: imageModal,
-    description: "Desarrollo de un centro comercial con más de 100 tiendas, áreas de entretenimiento y restaurantes.",
-    mt2: "25,000m2",
-    location: "Ciudad de Panamá, Panamá",
-    duration: "24 meses",
-    date: "Noviembre 2022",
+    title: "Piscina en Ullum",
+    image: imagePiscinaUllum5,
+    description: "Instalación de piscina con parrillero en Ullum, con todo lo necesario para disfrutar de un ambiente relajante.",
+    mt2: "-",
+    location: "Ullum, San Juan",
+    duration: "3 meses",
+    date: "Enero 2024",
     nameModal: "my_modal_2",
-    imageModal1: imageModal,
-    imageModal2: imageModal,
-    imageModal3: imageModal,
-    imageModal4: imageModal,
+    imageModal1: imagePiscinaUllum1,
+    imageModal2: imagePiscinaUllum2,
+    imageModal3: imagePiscinaUllum3,
+    imageModal4: imagePiscinaUllum7,
   },
   {
-    title: "Torre Empresarial Central",
-    image: imageModal,
-    description: "Edificio de oficinas de última generación con espacios flexibles y tecnología avanzada.",
-    mt2: "18,000m2",
-    location: "Bogotá, Colombia",
-    duration: "18 meses",
-    date: "Junio 2021",
+    title: "Trabajo de pintura en Capital",
+    image: pinturaCapital1_3,
+    description: "Trabajo de pintura en Capital, realizado con profesionalismo y calidad.",
+    mt2: "-",
+    location: "Capital, San Juan",
+    duration: "2 semanas",
+    date: "Septiembre 2024",
     nameModal: "my_modal_3",
-    imageModal1: imageModal,
-    imageModal2: imageModal,
-    imageModal3: imageModal,
-    imageModal4: imageModal,
+    imageModal1: pinturaCapital1_1,
+    imageModal2: pinturaCapital1_6,
+    imageModal3: pinturaCapital1_3,
+    imageModal4: pinturaCapital1_4,
   },
   {
-    title: "Hospital San Rafael",
-    image: imageModal,
-    description: "Ampliación y modernización de instalaciones hospitalarias, incluyendo nuevas salas de emergencia y cuidados intensivos.",
-    mt2: "12,000m2",
-    location: "Lima, Perú",
-    duration: "20 meses",
-    date: "Agosto 2023",
+    title: "Renovación de vivienda en Capital",
+    image: renovacionCapital1_8,
+    description: "Renovación de vivienda, especialmente en interior y exterior.",
+    mt2: "-",
+    location: "Capital, San Juan",
+    duration: "6 meses",
+    date: "Noviembre 2024",
     nameModal: "my_modal_4",
-    imageModal1: imageModal,
-    imageModal2: imageModal,
-    imageModal3: imageModal,
-    imageModal4: imageModal,
+    imageModal1: renovacionCapital1_1,
+    imageModal2: renovacionCapital1_3,
+    imageModal3: renovacionCapital1_5,
+    imageModal4: renovacionCapital1_6,
   },
   {
-    title: "Hotel Playa Azul",
-    image: imageModal,
-    description: "Construcción de un hotel de lujo con 200 habitaciones, piscinas y áreas recreativas.",
-    mt2: "15,000m2",
-    location: "Cancún, México",
-    duration: "16 meses",
-    date: "Enero 2022",
+    title: "Renovación del interior de vivienda en Capital",
+    image: renovacionCapital2_4,
+    description: "Renovación del interior de vivienda.",
+    mt2: "-",
+    location: "Capital, San Juan",
+    duration: "2 meses",
+    date: "Octubre 2023",
     nameModal: "my_modal_5",
-    imageModal1: imageModal,
-    imageModal2: imageModal,
-    imageModal3: imageModal,
-    imageModal4: imageModal,
+    imageModal1: renovacionCapital2_1,
+    imageModal2: renovacionCapital2_3,
+    imageModal3: renovacionCapital2_5,
+    imageModal4: renovacionCapital2_6,
   },
   {
-    title: "Parque Industrial Norte",
-    image: imageModal,
-    description: "Desarrollo de un parque industrial con naves industriales, áreas de carga y oficinas administrativas.",
-    mt2: "30,000m2",
-    location: "Monterrey, México",
-    duration: "22 meses",
-    date: "Abril 2023",
+    title: "Trabajo de pintura en Capital",
+    image: pinturaCapital2_5,
+    description: "Trabajo de pintura en Capital, realizado con profesionalismo y calidad.",
+    mt2: "-",
+    location: "Capital, San Juan",
+    duration: "3 Semanas",
+    date: "Diciembre 2023",
     nameModal: "my_modal_6",
-    imageModal1: imageModal,
-    imageModal2: imageModal,
-    imageModal3: imageModal,
-    imageModal4: imageModal,
+    imageModal1: pinturaCapital2_1,
+    imageModal2: pinturaCapital2_2,
+    imageModal3: pinturaCapital2_3,
+    imageModal4: pinturaCapital2_4,
   },
 ]
 

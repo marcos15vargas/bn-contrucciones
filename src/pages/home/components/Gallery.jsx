@@ -2,6 +2,8 @@ import image1 from "../../../assets/proyects/1.webp";
 import image2 from "../../../assets/proyects/2.webp";
 import image3 from "../../../assets/proyects/3.webp";
 import image4 from "../../../assets/proyects/4.webp";
+import image5 from "../../../assets/jobs/obra-zonda/6.webp";
+
 
 export const Gallery = () => {
   return (
@@ -24,7 +26,7 @@ export const Gallery = () => {
                 <img
                   alt="gallery"
                   className="w-full object-cover h-full object-center block hover:scale-105 transition-all"
-                  src={image2}
+                  src={image1}
                 />
               </div>
             </div>

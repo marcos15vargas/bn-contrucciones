@@ -19,19 +19,19 @@ const Options = () => {
               name="Norberto Reinoso"
               number="264 415-0563"
               image={avatar}
-              link="#"
+              link="https://wa.me/2644150563"
             />
             <Avatar
               name="Gabriel Castro"
               number="264 570-8166"
               image={avatar}
-              link="#"
+              link="https://wa.me/2645708166"
             />
             <Avatar
               name="Whatsapp BN Construcciones"
               number="264 563-3714"
               image={logo}
-              link="#"
+              link="https://wa.me/2645633714"
             />
             {/* <Avatar
               name="Facebook"
