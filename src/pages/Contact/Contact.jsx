@@ -4,7 +4,7 @@ import Hero from "../../components/Hero";
 import Options from "./components/Options";
 import ScrollToTop from "../../components/ScrollToTop";
 
-const image = "../../assets/heroSections/contact.webp";
+import image from  "../../assets/heroSections/contact.webp";
 
 const Contact = () => {
   return (

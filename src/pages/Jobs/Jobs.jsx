@@ -3,7 +3,7 @@ import BeforeAfter from "./components/BeforeAfter";
 import Modals from "./components/Modals";
 import ScrollToTop from "../../components/ScrollToTop";
 
-const image = "../../../public/heroSections/jobs.webp";
+import image from  "../../assets/heroSections/jobs.webp";
 
 const Jobs = () => {
   return (

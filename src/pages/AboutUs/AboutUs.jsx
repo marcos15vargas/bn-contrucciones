@@ -5,8 +5,7 @@ import Info from "./components/Info"
 import Team2 from "./components/Team2"
 import ScrollToTop from "../../components/ScrollToTop"
 
-const image = "../../../public/heroSections/about.webp";
-
+import image from  "../../assets/heroSections/about.webp";
 
 const AboutUs = () => {
   return (

@@ -3,7 +3,7 @@ import InfoService from "./components/InfoService"
 import Security from "./components/Security"
 import ScrollToTop from "../../components/ScrollToTop"
 
-const image = "../../../public/heroSections/services.webp";
+import image from  "../../assets/heroSections/services.webp";
 
 const Services = () => {
   return (
