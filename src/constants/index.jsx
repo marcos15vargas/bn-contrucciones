@@ -62,7 +62,15 @@ export const navItems = [
 export const banner = [
   {
     icon: <CircleCheck />,
+    text: "Eficiencia",
+  },
+  {
+    icon: <CircleCheck />,
     text: "Mayor Seguridad",
+  },
+  {
+    icon: <CircleCheck />,
+    text: "Cumplimiento",
   },
   {
     icon: <CircleCheck />,
@@ -74,15 +82,7 @@ export const banner = [
   },
   {
     icon: <CircleCheck />,
-    text: "Desarrollo",
-  },
-  {
-    icon: <CircleCheck />,
-    text: "Eficiencia",
-  },
-  {
-    icon: <CircleCheck />,
-    text: "Cumplimiento",
+    text: "Responsabilidad",
   },
 ];
 
