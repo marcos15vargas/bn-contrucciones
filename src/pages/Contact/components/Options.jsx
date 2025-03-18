@@ -16,13 +16,13 @@ const Options = () => {
           </div>
           <div className="mt-8">
             <Avatar
-              name="Norberto Reinoso"
+              name=""
               number="264 415-0563"
               image={avatar}
               link="https://wa.me/2644150563"
             />
             <Avatar
-              name="Gabriel Castro"
+              name=""
               number="264 570-8166"
               image={avatar}
               link="https://wa.me/2645708166"

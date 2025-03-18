@@ -1,7 +1,7 @@
 import { banner } from "../../../constants/index";
 import imgBanner from "../../../assets/banner2.webp";
 import Logo from "../../../assets/Logo";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Banner2 = () => {
   return (
@@ -27,7 +27,8 @@ const Banner2 = () => {
             ))}
           </div>
           <div className="m-auto mt-4">
-            <Link to="/contact" className="inline-block rounded bg-azul px-7 py-3 text-lg font-bold text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-azul/75">Contactanos</Link>
+            {/* <Link to="/contact" className="inline-block rounded bg-azul px-7 py-3 text-lg font-bold text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-azul/75">Contactanos</Link> */}
+            <a href="https://wa.me/2645633714" className="inline-block rounded bg-azul px-7 py-3 text-lg font-bold text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-azul/75">Contactanos</a>
           </div>
         </div>
         <div className="md:h-[65%]">

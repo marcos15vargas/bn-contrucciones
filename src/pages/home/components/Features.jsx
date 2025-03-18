@@ -17,7 +17,7 @@ export const Features = () => {
               </span>
               <div>
                 <h2 className="text-2xl font-bold">{item.title}</h2>
-                <p className="mt-1 text-sm text-justify">{item.text}</p>
+                <p className="mt-1 text-sm ">{item.text}</p>
               </div>
             </div>
           ))}

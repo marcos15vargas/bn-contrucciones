@@ -32,7 +32,7 @@ import remodelacion from "../assets/services/remodelacion.webp";
 // import arquitectura from "../assets/services/arquitectura.webp";
 
 //avatares
-// import avatar1 from "../assets/team/1.png";
+import avatar1 from "../assets/team/1.png";
 import avatar2 from "../assets/team/2.png";
 import avatar3 from "../assets/team/3.png";
 import avatar4 from "../assets/team/4.png";
@@ -94,17 +94,17 @@ export const features = [
   },
   {
     title: "Construccion",
-    text: "Nuestro equipo combina años de experiencia con una dedicación inigualable, garantizando resultados excepcionales en cada proyecto. Cada proyecto se realiza con materiales de primera calidad y una atención meticulosa al detalle, asegurando estructuras duraderas y estéticamente impresionantes. Trabajamos estrechamente con nuestros clientes para ofrecer soluciones personalizadas que se adapten a sus necesidades y superen sus expectativas.",
+    text: "Nuestro equipo combina años de experiencia con una dedicación inigualable. Cada proyecto se realiza con materiales de primera calidad y una atención meticulos, asegurando estructuras duraderas y estéticamente. Trabajamos estrechamente con nuestros clientes para ofrecer soluciones personalizadas, adaptándonos a las necesidades, intentando superar sus expectativas",
     icon: <HardHat />,
   },
   {
     title: "Remodelacion",
-    text: "Nuestro equipo de renovaciones combina experiencia y versatilidad para abordar proyectos variados, desde cocinas y baños hasta espacios exteriores. Nos comprometemos a emplear materiales de alta calidad y técnicas precisas, garantizando estándares de durabilidad y estética. Colaboramos estrechamente con los clientes para crear soluciones personalizadas que reflejen sus necesidades y gustos, asegurando resultados que superen sus expectativas.",
+    text: "Nuestro equipo de renovaciones combina experiencia y versatilidad para enfrentar diferentes proyectos. Adaptando las exigencias de nuestros clientes y modernizando espacios interiores como cocina y baño y centrándose en el exterior. Nos comprometemos a emplear materiales de alta calidad, técnicas modernas, garantizando estándares de calidad y estética. Enfocados en las necesidades de los clientes para darles soluciones que reflejen gustos, necesidades y expectativas.",
     icon: <BrickWall />,
   },
   {
     title: "Pintura",
-    text: " Nuestros pintores aportan experiencia y habilidad en cada proyecto. Usamos materiales de primera calidad para garantizar acabados duraderos y estéticamente impecables. Brindamos servicios de pintura personalizados, diseñados para adaptarse a las necesidades y preferencias de nuestros clientes, creando espacios únicos y acogedores que destacan por su calidad y estilo.",
+    text: " Brindamos servicios de pintura personalizados diseñados para adaptarse a las necesidades y preferencias de nuestros cliente, creando espacios únicos, acogedores y familiares. Que destacan su calidad y estilo. Utilizamos pinturas y materiales de primera calidad, garantizando resultados duraderos y estéticamente impecables en cada proyecto. ",
     icon: <PaintRoller />,
   },
 ];
@@ -124,9 +124,6 @@ export const slider = [
   },
 ];
 
-
-// Familia Pandiella ampliación y construcción de departamento:
-// Proyectamos junto con el equipo todo lo que nosotros queríamos y sobre la marcha se iban haciendo cambios según nuestros gustos y necesidades cada uno cumplió con su parte fueron eficientes responsables destacamos el respeto los buenos modales el orden la limpieza al finalizar cada tarea cumplieron con los tiempos y con Los presupuestos acordados ampliamente recomendados por su eficiencia calidad de persona y calidad de trabajo siempre abiertos a escuchar y entre ambas partes encontrar soluciones convenientes para todos un grupo alegre que siempre fue a trabajar con ganas y sin dejar un solo día su responsabilidad muy agradecidos hoy disfrutamos de nuestro propio espacio
 
 export const testimonial = [
   {
@@ -192,22 +189,22 @@ export const stats = [
 //seccion NOSOTROS
 export const team = [
   {
-    name: "Norberto Reinoso",
-    role: "Presidente - Jefe de Obra",
+    name: "",
+    role: "Jefes de Obra",
     image: avatar2,
   },
   {
-    name: "Gabriel Castro",
-    role: "Jefe de Obra",
-    image: avatar2,
+    name: "",
+    role: "Especialista en Plomeria",
+    image: avatar1,
   },
   {
-    name: "Claudio Reinoso",
+    name: "",
     role: "Especialista en Pintura",
     image: avatar4,
   },
   {
-    name: "Roberto Cortez",
+    name: "",
     role: "Electricista Matriculado",
     image: avatar3,
   },
