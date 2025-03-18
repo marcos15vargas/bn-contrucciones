@@ -10,7 +10,7 @@ export const Footer = () => {
           <div className="">
             <div className=" flex justify-center sm:justify-start">
               <a href="#home" className="w-36 ">
-                <Logo color={"#fff"}  />
+                <Logo color={"#fff"} />
               </a>
             </div>
 
@@ -101,19 +101,39 @@ export const Footer = () => {
 
               <ul className="mt-8 space-y-4 text-sm">
                 <li>
-                  <Link to="/jobs" className="text-slate-200 transition hover:text-slate-200/75">Historia de la empresa</Link>
+                  <Link
+                    to="/jobs"
+                    className="text-slate-200 transition hover:text-slate-200/75"
+                  >
+                    Historia de la empresa
+                  </Link>
                 </li>
 
                 <li>
-                  <Link to="/aboutus" className="text-slate-200 transition hover:text-slate-200/75">Nuestro Equipo</Link>
+                  <Link
+                    to="/aboutus"
+                    className="text-slate-200 transition hover:text-slate-200/75"
+                  >
+                    Nuestro Equipo
+                  </Link>
                 </li>
 
                 <li>
-                <Link to="/jobs" className="text-slate-200 transition hover:text-slate-200/75">Galeria</Link>
+                  <Link
+                    to="/jobs"
+                    className="text-slate-200 transition hover:text-slate-200/75"
+                  >
+                    Galeria
+                  </Link>
                 </li>
 
                 <li>
-                  <Link to="/jobs" className="text-slate-200 transition hover:text-slate-200/75">Proyectos</Link>
+                  <Link
+                    to="/jobs"
+                    className="text-slate-200 transition hover:text-slate-200/75"
+                  >
+                    Proyectos
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -123,23 +143,49 @@ export const Footer = () => {
 
               <ul className="mt-8 space-y-4 text-sm">
                 <li>
-                  <Link to="/#" className="text-slate-200 transition hover:text-slate-200/75">Inicio</Link>
+                  <Link
+                    to="/#"
+                    className="text-slate-200 transition hover:text-slate-200/75"
+                  >
+                    Inicio
+                  </Link>
                 </li>
 
                 <li>
-                  <Link to="/jobs" className="text-slate-200 transition hover:text-slate-200/75"> Trabajos</Link>
+                  <Link
+                    to="/jobs"
+                    className="text-slate-200 transition hover:text-slate-200/75"
+                  >
+                    {" "}
+                    Trabajos
+                  </Link>
                 </li>
 
                 <li>
-                  <Link to="/services" className="text-slate-200 transition hover:text-slate-200/75">Servicios</Link>
+                  <Link
+                    to="/services"
+                    className="text-slate-200 transition hover:text-slate-200/75"
+                  >
+                    Servicios
+                  </Link>
                 </li>
 
                 <li>
-                  <Link to="/aboutus" className="text-slate-200 transition hover:text-slate-200/75">Nosotros</Link>
+                  <Link
+                    to="/aboutus"
+                    className="text-slate-200 transition hover:text-slate-200/75"
+                  >
+                    Nosotros
+                  </Link>
                 </li>
 
                 <li>
-                  <Link to="/contact" className="text-slate-200 transition hover:text-slate-200/75">Contacto</Link>
+                  <Link
+                    to="/contact"
+                    className="text-slate-200 transition hover:text-slate-200/75"
+                  >
+                    Contacto
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -169,7 +215,7 @@ export const Footer = () => {
                     </svg>
 
                     <span className="flex-1 text-slate-200">
-                      info@bnconstrucciones.com
+                      bncompany717@gmail.com
                     </span>
                   </a>
                 </li>
