@@ -72,7 +72,7 @@ const Options = () => {
             <div className="flex justify-center my-8">
               <a
                 className="inline-block rounded bg-azul px-8 py-3 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-azul/75"
-                href="#"
+                href="https://forms.gle/Z4tEN1uUDprAgiX46"
               >
                 Formulario
               </a>
