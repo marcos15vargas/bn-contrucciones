@@ -1,15 +1,16 @@
-import image1 from "../../../assets/proyects/1.webp";
-import image2 from "../../../assets/proyects/2.webp";
-import image3 from "../../../assets/proyects/3.webp";
-import image4 from "../../../assets/proyects/4.webp";
-// import image5 from "../../../assets/jobs/obra-zonda/6.webp";
+import image1 from "../../../assets/proyects/5.webp";
+import image2 from "../../../assets/proyects/6.webp";
+import image3 from "../../../assets/proyects/7.webp";
+import image4 from "../../../assets/proyects/8.webp";
+import image5 from "../../../assets/proyects/10.webp";
+import image6 from "../../../assets/proyects/2.webp";
 
 
 export const Gallery = () => {
   return (
     <section className="body-font">
       <div className=" max-w-7xl container px-5 py-24 mx-auto flex flex-wrap">
-        <div className="flex w-full mb-20 flex-wrap">
+        <div className="flex w-full mb-10 flex-wrap">
           <h3 className="sm:text-4xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4 underline decoration-azul">
             Galeria de Nuestros Trabajos
           </h3>
@@ -44,7 +45,7 @@ export const Gallery = () => {
                 <img
                   alt="gallery"
                   className="w-full h-full object-cover object-center block hover:scale-105 transition-all"
-                  src={image1}
+                  src={image5}
                 />
               </div>
             </div>
@@ -73,7 +74,7 @@ export const Gallery = () => {
                 <img
                   alt="gallery"
                   className="w-full object-cover h-full object-center block hover:scale-105 transition-all"
-                  src={image1}
+                  src={image6}
                 />
               </div>
             </div>
