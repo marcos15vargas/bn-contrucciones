@@ -21,7 +21,7 @@ export const Gallery = () => {
           </p> */}
         </div>
         <div className="flex flex-wrap md:-m-2 -m-1">
-          <div className="flex flex-wrap w-1/2">
+          <div className="flex flex-wrap w-full sm:w-1/2">
             <div className="md:p-2 p-1 w-1/2">
               <div className="overflow-hidden">
                 <img
@@ -50,7 +50,7 @@ export const Gallery = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-wrap w-1/2">
+          <div className="flex flex-wrap w-full sm:w-1/2">
             <div className="md:p-2 p-1 w-full">
               <div className="overflow-hidden">
                 <img
