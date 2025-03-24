@@ -11,7 +11,7 @@ export const Proyects = () => {
         <h3 className="font-bold text-3xl lg:text-4xl underline decoration-azul">
           Nuestros Trabajos
         </h3>
-        <p className="text-justify my-10">
+        <p className="my-10">
           Somos una empresa constructora de sólida trayectoria y experiencia,
           con un equipo profesional plenamente comprometido con el cumplimiento
           y capaz de brindar múltiples soluciones en forma rápida, creativa y
