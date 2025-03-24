@@ -17,11 +17,11 @@ import slider2 from "../assets/slider/slider2.webp";
 import slider3 from "../assets/slider/slider3.webp";
 
 
-import perfil1 from "../assets/testimonial/perfil1.webp";
-import perfil2 from "../assets/testimonial/perfil2.webp";
-import perfil3 from "../assets/testimonial/perfil3.webp";
-import perfil4 from "../assets/testimonial/perfil4.webp";
-import perfil5 from "../assets/testimonial/perfil5.webp";
+// import perfil1 from "../assets/testimonial/perfil1.webp";
+import perfil2 from "../assets/testimonial/familia_silueta.webp";
+import perfil3 from "../assets/testimonial/mujer_silueta.webp";
+// import perfil4 from "";
+// import perfil5 from "";
 
 //imagenes para seccion servicios
 import construccion from "../assets/services/construccion.webp";
@@ -94,7 +94,7 @@ export const features = [
   },
   {
     title: "Construccion",
-    text: "Nuestro equipo combina años de experiencia con una dedicación inigualable. Cada proyecto se realiza con materiales de primera calidad y una atención meticulos, asegurando estructuras duraderas y estéticamente. Trabajamos estrechamente con nuestros clientes para ofrecer soluciones personalizadas, adaptándonos a las necesidades, intentando superar sus expectativas",
+    text: "Nuestro equipo combina años de experiencia con una dedicación inigualable. Cada proyecto se realiza con materiales de primera calidad y una atención meticulosa, asegurando estructuras duraderas y estéticamente. Trabajamos estrechamente con nuestros clientes para ofrecer soluciones personalizadas, adaptándonos a las necesidades, intentando superar sus expectativas",
     icon: <HardHat />,
   },
   {
@@ -128,7 +128,7 @@ export const slider = [
 export const testimonial = [
   {
     index: 1,
-    image: perfil1,
+    image: perfil2,
     title: "Construcción de Vivienda",
     text: "Estamos felices !!!! hace más de un año vivimos en nuestro hogar tal cual lo soñamos, supieron entender cada pedido y dieron respuesta a nuestras necesidades tanto material como económica..gracias por ayudarnos a cumplir nuestro sueño, pasaron a ser parte de nuestra familia... recomendable al 100%",
     name: "Familia Mariangeles Alamino - Franco Nechi",
@@ -143,23 +143,9 @@ export const testimonial = [
   {
     index: 3,
     image: perfil3,
-    title: "Construcción de Edificio de Apartamentos",
-    text: "Desde el principio, la comunicación fue excelente y nos mantuvieron informados en cada etapa del proyecto. La calidad de la construcción es evidente en cada detalle, y los apartamentos se vendieron rápidamente debido a la alta demanda por su diseño y acabados. No podríamos estar más satisfechos con el trabajo realizado.",
-    name: "Ana Gomez",
-  },
-  {
-    index: 4,
-    image: perfil4,
-    title: "Remodelación de Cocina",
-    text: "La remodelación de nuestra cocina superó todas nuestras expectativas. El equipo fue muy cuidadoso al trabajar en nuestra casa y siempre mantuvo el área limpia y organizada. Nos encantó el resultado final; la cocina es ahora el corazón de nuestro hogar y un lugar donde disfrutamos pasar tiempo en familia.",
-    name: "Luis Martinez",
-  },
-  {
-    index: 5,
-    image: perfil5,
-    title: "Construcción de Centro Comercial",
-    text: "Elegir esta empresa para la construcción de nuestro centro comercial fue una decisión acertada. Cumplieron con los plazos establecidos y manejaron todo el proyecto de manera eficiente. La atención al detalle y la calidad del trabajo han sido impresionantes, y nuestros inquilinos están muy contentos con sus nuevos espacios comerciales.",
-    name: "Elena Rodriguez",
+    title: "Trabajo de pintura casa de fin de semana",
+    text: "El equipo de trabajo realizó la pintura interior y exterior de toda la casa. Hicieron un trabajo excelente, sugiriendo a cada paso, materiales y colores que podían hacer de nuestra casa, un lugar único, siempre demostrando un total profesionalismo y experiencia en la tarea. Son muy responsables y respetuosos, cumplieron a la perfección con el tiempo estimado.",
+    name: "Yamile Avendaño",
   },
 ]
 
